@@ -30,6 +30,7 @@ docker run -p 8010:80 -d ylisafne/softtekreto
 }
 ```
 Usuarios Permitidos
+
 | UserName | password | rol |
 | agonzales | agonzales | Vendedor |
 | eperez | eperez | Vendedor |
