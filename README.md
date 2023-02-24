@@ -24,11 +24,11 @@ docker run -p 8010:80 -d ylisafne/softtekreto
 ## Uso de las API
 - Primero debe ejecutar el endpoint "/login" con el siguiente JSON
 ```
-
 {
 "UserName":  "string",
 "Password":  "string"
 }
+```
 Usuarios Permitidos
 |Usuario | password|rol|
 |agonzales|agonzales|Vendedor|
@@ -38,7 +38,7 @@ Usuarios Permitidos
 |mespinoza|mespinoza|Vendedor|
 
 
-```
+
 - Obtendremos por resultado  la siguiente estructura  donde "result" es el token a usar en las demas EndPoints
 ```
 {
