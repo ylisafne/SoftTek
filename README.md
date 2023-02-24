@@ -2,10 +2,10 @@
 
 Para este reto considere una tienda de autos, los vendedores pueden hacer descuentos siempre y cuando estén dentro del margen permitido, se acepta un descuento mayor al margen pero este tiene que ser autorizado por un Jefe.
 
-Requerimientos Backend 
+Archivos Backend  [SoftTek-Reto](./SoftTek-Reto) 
 - Net Core 6.0
 
-Front End
+Archivos Front End [SoftTek-Front] (./SoftTek-Front)
 - npm
 -------------------------------
 ### Correr API en Docker 
