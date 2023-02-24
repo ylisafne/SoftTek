@@ -8,7 +8,7 @@ import { IVentas } from '../models/iventas';
 export class VentasService {
   ListVenta: IVentas[];
 
-  BaseUrl = 'http://localhost:32770/';
+  BaseUrl = 'http://localhost:32771/';
   apiUrl = 'ventas';
   constructor(private http: HttpClient) { }
 

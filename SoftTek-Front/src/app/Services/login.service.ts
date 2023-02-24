@@ -8,7 +8,7 @@ import { IUser } from '../models/iuser';
   providedIn: 'root'
 })
 export class LoginService {
-  BaseUrl = 'http://localhost:32770/';
+  BaseUrl = 'http://localhost:32771/';
   apiUrl = 'login';
   constructor(private http: HttpClient) { }
   
