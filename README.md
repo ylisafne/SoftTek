@@ -1,7 +1,10 @@
 # Bienvenido al Reto Tecnico SoftTek !
 
+Para este reto considere una tienda de autos, los vendedores pueden hacer descuentos siempre y cuando estén dentro del margen permitido, se acepta un descuento mayor al margen pero este tiene que ser autorizado por un Jefe.
+
 Requerimientos Backend 
 - Net Core 6.0
+
 Front End
 - npm
 -------------------------------
