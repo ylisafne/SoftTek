@@ -1,0 +1,26 @@
+
+<div>
+  
+</div>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Asesor</th>
+        <th>Producto</th>
+        <th>Margen</th>
+        <th>Precio Venta</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let ven of serv.ListVenta">
+            <td>{{ven.fecha| date:'dd/MM/yyyy'}}</td>
+            <td>{{ven.asesor}}</td>
+            <td>{{ven.producto}}</td>
+            <td>{{ven.margen}}</td>
+            <td class="text-end">{{ven.precioVenta}}</td>
+            <td>{{ven.estado}}</td>
+        </tr>
+    </tbody>
+</table>
